@@ -1,4 +1,35 @@
-
-
-.section{
+.navigation{
+    height: 100vh;
+    border: 1px solid white;
+    /* change up the wt in the end */
+    width: 200px;
 }
+.duo-logo{
+    /* margin-top: 20px; */
+}
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-content: space-between; */
+
+    background-color: rgba(255, 255, 255, 0.129);
+}
+.section{
+    /* display: flex; */
+    border-radius: 0.5rem;
+    height: 30px;
+    width: 80%;
+    font-size: small;
+}
+.section:hover{
+    background-color: rgba(255, 255, 255, 0.485);
+}
+.section img{
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+}
+
