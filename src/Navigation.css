@@ -4,8 +4,12 @@
     /* change up the wt in the end */
     width: 200px;
 }
-.duo-logo{
-    /* margin-top: 20px; */
+.nav-logo{
+    height: 100px;
+    margin-left: 20px;
+}
+.nav-logo img{
+    margin-top: -25px;
 }
 .container{
     height: 80vh;
@@ -17,7 +21,8 @@
     background-color: rgba(255, 255, 255, 0.129);
 }
 .section{
-    /* display: flex; */
+    display: flex;
+    align-items: baseline;
     border-radius: 0.5rem;
     height: 30px;
     width: 95%;
