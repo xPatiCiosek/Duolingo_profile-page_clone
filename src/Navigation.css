@@ -25,14 +25,16 @@
 }
 .section{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     border-radius: 0.5rem;
-    height: 30px;
-    width: 95%;
-    font-size: small;
+    height: 50px;
+    width: 87%;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: din-round,sans-serif;
 }
 .section:hover{
-    background-color: rgba(255, 255, 255, 0.485);
+    background-color: rgba(255, 255, 255, 0.068);
 }
 .section img{
     margin-left: 15px;
