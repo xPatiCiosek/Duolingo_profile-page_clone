@@ -47,4 +47,5 @@
 .body{
   display:flex;
   flex-direction: row;
+  background-color: rgb(19,31,36);
 }
