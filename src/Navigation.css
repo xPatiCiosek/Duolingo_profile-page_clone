@@ -7,11 +7,13 @@
     align-items: center;
 }
 .nav-logo{
-    height: 100px;
-    margin-left: 20px;
+    height: 97px;
+    width: 87%;
 }
 .nav-logo img{
-    margin-top: -25px;
+    margin-top: 33px;
+    margin-left: 15px;
+    width: 130px;
 }
 .container{
     height: 80vh;
@@ -33,9 +35,12 @@
     background-color: rgba(255, 255, 255, 0.485);
 }
 .section img{
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 20px;
-    height: 20px;
-    width: 20px;
+    height: 32px;
+    width: 32px;
+}
+.container > :nth-child(6) img {
+    border-radius: 1rem;
 }
 
