@@ -11,8 +11,9 @@ function App() {
       <div className='body'>
         <Navigation/>
         <main className='main-content'>
-          <div className='profile'></div>
-          <div className='news'></div>
+          <div className='profile'>Some content</div>
+          more content
+          <div className='news'>more more more</div>
         </main>
       </div>  
     </>
