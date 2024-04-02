@@ -7,8 +7,11 @@
     align-items: center;
 }
 .nav-logo{
-    height: 97px;
+    height: 90px;
     width: 87%;
+}
+.small-logo{
+    display: none;
 }
 .nav-logo img{
     margin-top: 33px;
@@ -16,18 +19,21 @@
     width: 130px;
 }
 .container{
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    gap: 7px;
     align-items: center;
 }
 .section{
     display: flex;
     align-items: center;
+    border: 1px bold transparent;
     border-radius: 0.5rem;
-    height: 50px;
+    height: 53px;
     width: 87%;
     font-size: 15px;
     font-weight: bold;
