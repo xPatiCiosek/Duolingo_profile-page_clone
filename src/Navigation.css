@@ -78,4 +78,34 @@
         width: 65%;
     }
 }
+@media only screen and (max-width:700px){
+    .navigation{
+        position: fixed;
+        bottom: 0;
+        height: 90px ;
+        width: 100%;
+        flex-direction: row;
+    }
+    .container{
+        flex-direction: row;
+        justify-content:space-around;
+    }
+    .section img{
+        height: 50px;
+        width: 50px;
+    }
+    .section{
+        height: 55px;
+        width: 55px;
+    }
+    .section:hover{
+        background-color: transparent;
+    }
+    .nav-logo{
+        display: none;
+    }
+    .container > :nth-child(7){
+        display: none;
+    }
+}
 
