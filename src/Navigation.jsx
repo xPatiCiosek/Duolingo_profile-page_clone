@@ -14,7 +14,8 @@ function Navigation(props){
     return(
         <div className='navigation'>
             <div className='nav-logo'>
-                <img src="https://d35aaqx5ub95lt.cloudfront.net/vendor/70a4be81077a8037698067f583816ff9.svg" alt="duo logo" />
+                <img className='big-logo' src="https://d35aaqx5ub95lt.cloudfront.net/vendor/70a4be81077a8037698067f583816ff9.svg" alt="duo logo" />
+                <img className='small-logo' src="https://d35aaqx5ub95lt.cloudfront.net/vendor/0cecd302cf0bcd0f73d51768feff75fe.svg" alt="duo logo" />
             </div>
             <div className='container'>
                 <Section src="https://d35aaqx5ub95lt.cloudfront.net/vendor/784035717e2ff1d448c0f6cc4efc89fb.svg" title="LEARN"/>
