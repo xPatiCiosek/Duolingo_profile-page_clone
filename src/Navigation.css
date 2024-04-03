@@ -31,7 +31,7 @@
 .section{
     display: flex;
     align-items: center;
-    border: 1px bold transparent;
+    border: 2px solid transparent;
     border-radius: 0.5rem;
     height: 53px;
     width: 87%;
@@ -41,6 +41,10 @@
 }
 .section:hover{
     background-color: rgba(255, 255, 255, 0.068);
+}
+.section.active{
+    border: 2px solid rgb(25, 123, 162);
+    background-color: rgba(25, 123, 162, 0.187);
 }
 .section img{
     margin-left: 15px;
@@ -97,8 +101,8 @@
         width: 50px;
     }
     .section{
-        height: 55px;
-        width: 55px;
+        height: 52px;
+        width: 52px;
     }
     .section:hover{
         background-color: transparent;
@@ -108,6 +112,10 @@
     }
     .container > :nth-child(7){
         display: none;
+    }
+    .section.active{
+        /* border: 2px solid rgb(25, 123, 162); */
+        background-color: rgba(25, 123, 162, 0.187);
     }
 }
 
