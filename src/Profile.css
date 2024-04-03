@@ -1,5 +1,28 @@
 .profile{
     flex: 1;
-    background-color: rgb(127, 255, 150);
-    height: 100%;
+    background-color: transparent;
+    height: fit-content;
+    display: flex;
+    /* justify-content:space-around; */
+    flex-direction: column;
+    gap: 10px;
+}
+.profile > :nth-child(1){
+  margin-top: 450px;
+}
+.profile div{
+  align-self: center;
+  /* margin-top: 20px; */
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.52);
+  height: 100px;
+  width: 80%;
+}
+@media only screen and (max-width:700px){
+  .profile{
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 70px;
   }
+}
