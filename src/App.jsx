@@ -4,15 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navigation from './Navigation'
 import Profile from './Profile'
+import News from './News'
 
 function App() {
 
   return (
     <>
       <Navigation />
-        <main className='main-content'>
+      <main className='main-content'>
         <Profile/>
-        </main>
+        <News/>
+      </main>
     </>
   )
 }
