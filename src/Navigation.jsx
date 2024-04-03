@@ -10,9 +10,9 @@ function Section(props){
     )
 }
 
-function Navigation(props){
+function NavBar(props){
     return(
-        <div className='navigation'>
+        <nav className='nav'>
             <div className='nav-logo'>
                 <img className='big-logo' src="https://d35aaqx5ub95lt.cloudfront.net/vendor/70a4be81077a8037698067f583816ff9.svg" alt="duo logo" />
                 <img className='small-logo' src="https://d35aaqx5ub95lt.cloudfront.net/vendor/0cecd302cf0bcd0f73d51768feff75fe.svg" alt="duo logo" />
@@ -26,7 +26,10 @@ function Navigation(props){
                 <Section src="https://simg-ssl.duolingo.com/avatars/1342075437/YOxVAzdSPD/medium" title="PROFILE"/>
                 <Section src="https://d35aaqx5ub95lt.cloudfront.net/vendor/7159c0b5d4250a5aea4f396d53f17f0c.svg" title="MORE"/>
             </div>
-        </div>
+        </nav>
     )
 }
-export default Navigation;
+
+export default NavBar;
+
+  
