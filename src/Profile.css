@@ -1,4 +1,5 @@
-.profile{
+/* main-prof */
+.main{
     flex: 1;
     background-color: transparent;
     height: fit-content;
@@ -7,10 +8,10 @@
     flex-direction: column;
     gap: 10px;
 }
-.profile > :nth-child(1){
+.main > :nth-child(1){
   margin-top: 450px;
 }
-.profile div{
+.main div{
   align-self: center;
   /* margin-top: 20px; */
   border-radius: 0.5rem;
@@ -19,10 +20,46 @@
   height: 100px;
   width: 80%;
 }
+
+/* news */
+.news{
+  background-color: transparent;
+  width: 410px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.news div{
+  align-self: center;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.52);
+  height: 100px;
+  width: 75%;
+}
+/* profile */
+
+.main-content{
+  flex: 1;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: auto;
+}
+
 @media only screen and (max-width:700px){
   .profile{
     width: 100%;
     padding-bottom: 100px;
     padding-top: 70px;
+  }
+  .main-content{
+    height: 100vh;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
   }
 }
