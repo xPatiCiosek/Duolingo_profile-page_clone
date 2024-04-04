@@ -1,6 +1,7 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import './Profile.css';
+import News from '../News/News';
 
 function MainProf(){
     return(
@@ -14,17 +15,6 @@ function MainProf(){
             <div></div>
             <div></div>
         
-        </div>
-    )
-}
-
-function News(){
-    return(
-        <div className='news'>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
         </div>
     )
 }
