@@ -6,14 +6,10 @@ import News from '../News/News';
 function MainProf(){
     return(
         <div className='main'>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className='profile-pic'></div>
+            <div className='username-section'></div>
+            <div className='stat-section'></div>
+            <div className='achievment-section'></div>
         
         </div>
     )
