@@ -67,22 +67,33 @@
   height: 20px;
 }
 
-.main div,.main section{
-  align-self: center;
-  /* background-color: transparent; */
-  /* border: 1px solid rgba(255, 255, 255, 0.52); */
+/* stat-section */
+.stat-section{
+  position: relative;
   width: 80%;
+  height: fit-content;
 }
+.stat-section h2{
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 8px;
 
-/* profile */
-.main-content{
-  flex: 1;
-  width: 80%;
+}
+.container-stat{
+
+  width: 100%;
+  height: fit-content;
+  
   display: flex;
-  justify-content: center;
-  /* align-items: center; */
-
-  overflow: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container-stat span{
+  border: 1px solid white;
+  border-radius: 1rem;
+  height: 75px;
+  width: calc(50% - 8px) ;  
+  margin-bottom: 12px;
 }
 
 @media only screen and (max-width:700px){

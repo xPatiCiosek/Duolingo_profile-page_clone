@@ -9,10 +9,25 @@ function MainProf(props){
         <div className='main'>
             <div className='profile-pic'><button></button></div>
             <UsernameSection name="Pati" nickname='xgydr' joinDate='December 2023' numFollowing='10' numFollowers='7'/>
-            <section className='stat-section'></section>
-            <section className='achievment-section'></section>
+            <ProfSection title='Statistics'>
+                <div className='container-stat'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </ProfSection>
         
         </div>
+    )
+}
+
+function ProfSection(props) {
+    return(
+        <section className='stat-section'>
+            <h2>{props.title}</h2>
+            {props.children}
+        </section>
     )
 }
 
