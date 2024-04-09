@@ -17,6 +17,9 @@ function MainProf(props){
                     <span></span>
                 </div>
             </ProfSection>
+            <ProfSection title='Achievments'>
+                <Link className='link button'>VIEW ALL</Link>
+            </ProfSection>
         
         </div>
     )
